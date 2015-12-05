@@ -56,7 +56,7 @@ public class Utilies
         }
         else
         {
-            return "Matchday : " + String.valueOf(match_day);
+            return context.getString(R.string.matchday_text)+" : " + String.valueOf(match_day);
         }
     }
 
